@@ -25,7 +25,9 @@ a{
     text-align: center;
     width: 100%;
     background-color: #F8F0ED;
-    padding:0 3rem;
+    padding: 122px 3rem;
+    align-content: c;
+    margin-top: 0px;
 }
 img{
     width: 100%;
@@ -33,20 +35,34 @@ img{
 .container{
     margin-top: 5rem;
 }
-.image{
-    box-shadow: 1px 4px 4px 0px #f8bfbf;
+.third-row{
+    background-color:#F8F0ED;
+    background-image: url(./art.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 573px;
+    margin: 5rem 0rem;
 }
-.text-card{
-     background-color:#F8F0ED;
-    margin-top: 5rem;
+
+.image1{
+    border: 16px solid white;git 
 }
-.paragraph2{
+.first-class{
     background-color: white;
+    height: fit-content;
+    padding: 35px;
+    margin-top: 69px;
 }
-.FIRST-CLASS{
-   align-items: center;
-  
+.fourth-row{
+    text-align: center;
+    padding: 7rem;
 }
-.image2{
-    border: 5px solid white;
+h5{
+    padding-bottom:5px
+}
+.fifth-class{
+    text-align: center;
+    padding: 3rem 5rem;
+    background-color: #F8F0ED;
 }

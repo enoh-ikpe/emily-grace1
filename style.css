@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,800;1,800&display=swap');
+body{
+    font-family:'Nunito', sans-serif;
+}
+.div1{
+    background-color:#F8F0ED ;
+    z-index: -2;
+    position: absolute;
+    margin-right: 10px;
+    margin-left: -10px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    border: 21px solid #F8F0ED;
+    width: 350px;
+    height: 100;
+    height: 350px;
+}
+h3,h5,h6,h1{
+    font-weight: 800;
+}
+.image{
+    border-radius: 3px;
+}
 nav{
     display: flex;
     justify-content:space-around;
@@ -7,6 +30,7 @@ ul{
     list-style: none;
     display: inline;
 }
+
 li{
     display: inline-block;
     font-weight: 600;
@@ -18,7 +42,7 @@ a{
     color: black;
 }
 .container-fluid{
-    margin-top: 20px;
+    margin-top: 99px;
     display: flex;
 }
 .text1{
@@ -26,43 +50,71 @@ a{
     width: 100%;
     background-color: #F8F0ED;
     padding: 122px 3rem;
-    align-content: c;
+    align-content: center;
     margin-top: 0px;
 }
 img{
     width: 100%;
+    /* height: 108vh; */
 }
 .container{
     margin-top: 5rem;
 }
 .third-row{
     background-color:#F8F0ED;
-    background-image: url(./art.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 573px;
-    margin: 5rem 0rem;
+    position: relative;
 }
 
 .image1{
-    border: 16px solid white;git 
+    border: 16px solid white;
 }
 .first-class{
     background-color: white;
-    height: fit-content;
     padding: 35px;
-    margin-top: 69px;
+    margin: 69px;
+    z-index: 2;
+}
+.third-class{
+    position: absolute;
+    left: -90;
+    left: 655px;
+    top: -344px;
+    height: 380px;
+    border: 10px solid white;
+}
+.image2{
+    position: absolute;
+    left: -42%;
+    height: 432px;
+    top: -44px;
+}
+.third-class{
+    position: absolute;
 }
 .fourth-row{
     text-align: center;
     padding: 7rem;
 }
 h5{
-    padding-bottom:5px
+    /* padding-bottom:5px; */
+    font-weight: 600;
 }
-.fifth-class{
+footer{
     text-align: center;
     padding: 3rem 5rem;
     background-color: #F8F0ED;
+}
+
+.div1{
+    background-color: #F8F0ED;
+    z-index: -2;
+    position: absolute;
+    margin-right: 10px;
+    margin-left: -10px;
+    margin-top: -19px;
+    margin-bottom: -30px;
+    border: solid 21px #F8F0ED;
+    width: 350px;
+    height: 100;
+    height: 500px;
 }
